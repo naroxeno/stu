@@ -20,7 +20,6 @@ void main() {
 
   WindowOptions windowOptions = WindowOptions(
     titleBarStyle: TitleBarStyle.hidden, // 隐藏标题栏
-    minimumSize: Size(800, 600),
   );
 
   windowManager.waitUntilReadyToShow(windowOptions, () async {
